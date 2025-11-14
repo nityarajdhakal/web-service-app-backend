@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "postbuild": "cp dist/index.html dist/200.html",
-  "preview": "vite preview"
-},
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
